@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahangirnagar University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital@1&family=Oswald:wght@300&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- -----Heaader Section starts from here----- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/julogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-angles-right" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- -------Header section end here------- -->
+     <!-- ------Contact Us content starts from here------- -->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.2837018882583!2d90.2704554144583!3d23.879556589748187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e99900000001%3A0x2debf98e950c72ca!2sJahangirnagar%20University!5e0!3m2!1sen!2sbd!4v1653061144327!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+      
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>New Registrar Building (1st Floor),JU</h5>
+                    <p>Savar, Dhaka-1342, Bangladesh.</p>
+                </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>02224491040 (Off.)</h5>
+                    <p> 8:30 AM to 4:00 PM,   Days: Sunday to Thursday</p>
+                </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5> registrar@juniv.edu</h5>
+                    <p>Email us your query</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your Department" required>
+                    <textarea rows="10"placeholder="Enter your messege" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">SEND</button>
+                    <button type="reset"class="hero-btn red-btn">CLEAR</button>
+                </form>
+            </div>
+        </div>
+     </section>
+
+
+
+
+     <!-- ------Contact Us content starts from here------- -->
+    <!-- ----Footer section starts here----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can also know about us on social media like "Facebook","Twitter","Linkedin" & "Instagram". <br> Here is some link of social media.Click on these icon to connenct with us on social media.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook" style="color:#4267B2 ;"></i>
+            <i class="fa-brands fa-twitter" style="color:#1DA1F2 ;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #0072b1;"></i>
+            <i class="fa-brands fa-instagram" style="color: #3f729b;"></i>
+           </div>
+           <p>Made with <i class="fa-solid fa-heart" style="color: red"></i> by &copy Md Sohel Rana </p>
+    </section>
+    <!-- -----Footer ends here---- -->
+    <script>
+          var navLinks=document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right="0";
+          }
+          function hideMenu(){
+              navLinks.style.right="-200px";
+          }
+    </script>
+</body>
+</html>

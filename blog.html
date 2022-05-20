@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahangirnagar University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital@1&family=Oswald:wght@300&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- -----Heaader Section starts from here----- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/julogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-angles-right" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!-- -------Header section end here------- -->
+     <!-- ------Blog page content starts here---- -->
+     <section class="blog">
+         <div class="row">
+             <div class="blog-left">
+                 <img src="image/certificate.jpg" alt="">
+                 <h2>Our Certificate & Online Programs For 2022</h2>
+                 <p>Jahangirnagar University offers a variety of online courses and programs for undergraduate and graduate students. In addition, our online certificate programs are a convenient and high-quality source of professional development. Our well-respected faculty who teach virtual courses as part of JU Online also teach in-person courses on our Ohio campuses.</p> <br>
+                 <p>Online short courses, professional development and part-time JU award programmes.</p>
+                 <br>
+                 <p>Flexible and accredited tutor-led online courses of 5, 10 or 20 weeks. Study whenever it suits you, from anywhere in the world</p><br>
+                 <p>Advance your skills and methodology in researching local, regional and social history with this one-year, part-time online advanced diploma. Taught completely online, the course is taught at third-year undergraduate level.</p> <br>
+                 <p>A one-year part-time course for those wishing to develop their understanding of modern systems analysis, development and management. Delivered entirely online, the course is taught at third-year undergraduate level.</p> <br>
+                 <p>Our low-residency programmes allow students the flexibility of studying primarily from home, with short residential stays in Oxford.</p>
+
+
+                 <div class="comment-box">
+                     <h3>Leave a comment</h3>
+                     <form action="" class="comment-form">
+                         <input type="text" placeholder="Enter Name">
+                         <input type="email" placeholder="Enter Email">
+                         <textarea  rows="5" placeholder="Your Comment"></textarea>
+                         <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                         <button type="reset" class="hero-btn red-btn">CLEAR</button>
+                     </form>
+                 </div>
+             </div>
+             <div class="blog-right">
+                 <h3>Post Categories</h3>
+                 <div>
+                     <span>Business Analytical</span>
+                     <span>21</span>
+                 </div>
+                 <div>
+                    <span>Data Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Information Technology</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Genetic Engineering</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>24</span>
+                </div>
+             </div>
+         </div>
+
+     </section>
+    <!-- ------Blog page content ends here---- -->
+     
+    <!-- ----Footer section starts here----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can also know about us on social media like "Facebook","Twitter","Linkedin" & "Instagram". <br> Here is some link of social media.Click on these icon to connenct with us on social media.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook" style="color:#4267B2 ;"></i>
+            <i class="fa-brands fa-twitter" style="color:#1DA1F2 ;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #0072b1;"></i>
+            <i class="fa-brands fa-instagram" style="color: #3f729b;"></i>
+           </div>
+           <p>Made with <i class="fa-solid fa-heart" style="color: red"></i> by &copy Md Sohel Rana </p>
+    </section>
+    <!-- -----Footer ends here---- -->
+    <script>
+          var navLinks=document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right="0";
+          }
+          function hideMenu(){
+              navLinks.style.right="-200px";
+          }
+    </script>
+</body>
+</html>
